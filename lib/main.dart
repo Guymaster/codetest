@@ -3,7 +3,7 @@ import 'package:groupe/screens/splash_screen/welcome_screen.dart';
 import 'package:hive/hive.dart';
 import 'package:groupe/security/jwt_security.dart';
 import 'package:groupe/service/user.dart';
-
+import 'package:flutter/material.dart';
 import 'classes/application_user.dart';
 import 'classes/hive.dart';
 
@@ -25,7 +25,6 @@ Future<void> main() async {
   runApp(MyHomePage());
 }
 const d_red = const Color(0xFFE9717D);
-import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -44,7 +43,6 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
 
 
 

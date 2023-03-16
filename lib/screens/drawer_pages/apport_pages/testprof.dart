@@ -260,7 +260,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            OutlineButton(
+                            OutlinedButton(
                               padding: EdgeInsets.symmetric(horizontal: 50),
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20)),

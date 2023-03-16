@@ -20,10 +20,10 @@ class _LogOutDialogState extends State<LogOutDialog> {
             borderRadius: BorderRadius.all(Radius.circular(20))),
 
         actions: <Widget>[
-          FlatButton(
+          TextButton(
             child: const Text('Annuler'),
             materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-            textColor: Theme.of(context).accentColor,
+            textColor: Theme.of(context).colorScheme.secondary,
             onPressed: () async {
               Navigator.pop(context);
             },
